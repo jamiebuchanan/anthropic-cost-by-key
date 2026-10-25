@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "type": "api_key",
+      "id": "apikey_01FIXTURE000000000000001",
+      "name": "web-backend",
+      "status": "active",
+      "workspace_id": null
+    },
+    {
+      "type": "api_key",
+      "id": "apikey_01FIXTURE000000000000002",
+      "name": "nightly-batch",
+      "status": "active",
+      "workspace_id": null
+    },
+    {
+      "type": "api_key",
+      "id": "apikey_01FIXTURE000000000000003",
+      "name": "ci-evals",
+      "status": "archived",
+      "workspace_id": null
+    }
+  ],
+  "has_more": false
+}

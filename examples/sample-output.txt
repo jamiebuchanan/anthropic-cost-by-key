@@ -1,0 +1,53 @@
+Anthropic cost by API key, 2026-10-01 to 2026-10-03 (3 days, USD)
+
+=== COST BY API KEY ===
+
+  key                                  input tok  cache read  cache write  output tok    cost  share
+  -----------------------------------  ---------  ----------  -----------  ----------  ------  -----
+  web-backend                          3,550,000   5,000,000      200,000     655,000  $14.50  46.6%
+  nightly-batch                        4,000,000           0            0     500,000   $9.75  31.4%
+  ci-evals [archived]                  1,000,000           0      500,000     200,000   $3.00   9.6%
+  apikey_01FIXTURE000000000000009        200,000           0            0      20,000   $0.90   2.9%
+  (no API key: Console or playground)    100,000           0            0      10,000   $0.45   1.4%
+
+  Cost per key is each key's token share of the real cost lines, not a list price estimate.
+
+=== COST BY MODEL ===
+
+  model / line item       cost  share
+  --------------------  ------  -----
+  claude-sonnet-4-5     $20.10  64.6%
+  claude-haiku-4-5       $7.50  24.1%
+  Code Execution Usage   $2.50   8.0%
+  Web Search Usage       $1.00   3.2%
+
+=== COST BY DAY ===
+
+  day (UTC)     cost
+  ----------  ------
+  2026-10-01  $18.45
+  2026-10-02   $8.50
+  2026-10-03   $4.15
+
+=== NOT ATTRIBUTABLE TO A KEY ===
+
+  line item              cost  share
+  --------------------  -----  -----
+  Code Execution Usage  $2.50   8.0%
+
+=== USAGE WITH NO COST LINE ===
+
+  These are in the usage report but not the cost report (Priority Tier is billed
+  separately). They are counted in the token columns above, not in any cost.
+
+  claude-sonnet-4-5 (priority): 55,000
+
+=== RECONCILIATION ===
+
+  cost report total          $31.10
+  attributed to API keys     $28.60
+  not attributable           $2.50
+  matched exactly / loosely  16 / 0 cells
+
+TOTAL over 3 days: $31.10 ($10.37 per day)
+

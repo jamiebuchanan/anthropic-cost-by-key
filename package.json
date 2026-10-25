@@ -1,0 +1,23 @@
+{
+  "name": "anthropic-cost-by-key",
+  "version": "0.1.0",
+  "description": "Cost per API key for an Anthropic organization, from the Admin API usage and cost reports.",
+  "type": "module",
+  "bin": {
+    "anthropic-cost-by-key": "bin/anthropic-cost-by-key.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bash test/run.sh"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "author": "Jamie Buchanan"
+}
