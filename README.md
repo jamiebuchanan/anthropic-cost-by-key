@@ -22,6 +22,8 @@ Zero dependencies. Node 18.17 or newer. Read-only.
 
 ## Setup
 
+To have a coding agent install it: `curl -fsSL https://raw.githubusercontent.com/jamiebuchanan/anthropic-cost-by-key/main/AGENT-INSTALL.md | claude`
+
 You need an Admin API credential. A normal workspace API key is rejected by these endpoints, and the Admin API is not available on individual accounts, only on organizations. See Anthropic's [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api) docs for how to create one (Claude Console, Settings, Admin keys).
 
 The key is read from the `ANTHROPIC_ADMIN_KEY` environment variable and nowhere else. Keep it out of your shell history:
