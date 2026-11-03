@@ -1,0 +1,9 @@
+# anthropic-cost-by-key
+
+> A Node command line tool that shows which Anthropic API key spent the money, using real figures from the Admin API cost and usage reports.
+
+## Docs
+
+- [README](https://raw.githubusercontent.com/jamiebuchanan/anthropic-cost-by-key/main/README.md): what it does, setup, usage, limits and tests
+- [AGENT-INSTALL](https://raw.githubusercontent.com/jamiebuchanan/anthropic-cost-by-key/main/AGENT-INSTALL.md): step by step install guide for a coding agent
+- [Sample output](https://raw.githubusercontent.com/jamiebuchanan/anthropic-cost-by-key/main/examples/sample-output.txt): an example report built from synthetic data
